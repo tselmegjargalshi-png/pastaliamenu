@@ -7,7 +7,6 @@ Derleme adımı yoktur: statik sayfalar + Vercel serverless API + Vercel Blob de
 |---|---|
 | `/` | Müşteri menüsü: TR/EN dil seçimi, kategori çubuğu, arama, alerjen filtresi, ürün detay penceresi |
 | `/mutfak` | Yönetim paneli (giriş gerekli): ürün ekle/sil/düzenle, fiyat, görsel yükle, satışta/tükendi, gizle, öne çıkar, kategoriler, işletme bilgileri, yedek |
-| `/credits` | Ürün fotoğraflarının lisans/kaynak listesi |
 | `/qr/*` | Logolu QR kod (SVG, PNG) ve masa kartı (PNG) |
 | `/api/*` | `login`, `logout`, `me`, `menu` (GET/PUT), `upload` |
 
@@ -27,13 +26,7 @@ Derleme adımı yoktur: statik sayfalar + Vercel serverless API + Vercel Blob de
 Şifre değiştirmek: yeni hash üretin, `ADMIN_PASSWORD_HASH` değerini güncelleyip yeniden deploy edin. Şifre düz metin olarak hiçbir yerde saklanmaz.
 
 ## Ürün fotoğrafları
-Fotoğraflar açık lisanslı kaynaklardan (Openverse/Flickr, Wikimedia Commons; CC0, CC BY, CC BY-SA, kamu malı) seçilip repoya indirilmiştir; dışarıya bağlantı (hotlink) yoktur.
-- `scripts/images/queries.json`: ürün başına arama sorgusu
-- `scripts/images/search.mjs`: adayları bulur, `scripts/images/review/<id>.jpg` önizleme sayfası üretir
-- `scripts/images/picks.json`: seçilen aday (numara) → `scripts/images/fetch.mjs` indirir, 4:3 kırpar, `assets/menu/<id>.webp` olarak kaydeder, lisans bilgisini `data/image-credits.json`'a yazar
-- `.github/workflows/images.yml` bu adımları GitHub Actions'ta çalıştırır.
-
-Kendi çektiğiniz fotoğrafları panelden yüklemeniz önerilir; yüklenen fotoğraf otomatik küçültülür ve Blob'a kaydedilir.
+Menüde hazır fotoğraf yoktur; ürünler fotoğrafsız, temiz bir düzenle gösterilir. Panelde her ürünün düzenleme penceresinden **Görsel yükle / değiştir** ile kendi fotoğrafınızı ekleyebilirsiniz (otomatik küçültülür, Blob'a kaydedilir). Fotoğraf eklenen ürün kartında fotoğrafla görünür; “Öne çıkanlar” bölümü yalnızca fotoğrafı olan öne çıkan ürünleri gösterir.
 
 ## Yerelde çalıştırma
 ```

@@ -214,3 +214,8 @@ body.locked { overflow: hidden; }
 .credits-page li { margin: 0 0 10px; font-size: 14px; }
 
 .order-banner { margin: 18px 16px; padding: 12px 16px; text-align: center; font: 700 15px/1.3 var(--serif, Fraunces, serif); letter-spacing: .02em; text-transform: uppercase; color: #c8202f; background: #fff3f2; border: 1px solid #f2c9c6; border-radius: 14px; }
+
+/* text-only layout (no photo) */
+.card.nophoto { grid-template-columns: 1fr; }
+.card.nophoto .badge { position: static; display: inline-block; align-self: flex-start; margin: 0 0 6px; }
+.row .ph { flex: none; }

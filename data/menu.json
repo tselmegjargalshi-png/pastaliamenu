@@ -158,7 +158,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/margherita.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -185,7 +185,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/dana-kaburgali.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -213,7 +213,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/lia-pesto.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "İmza",
@@ -240,7 +240,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/karisik.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -267,7 +267,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/dort-peynirli.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -294,7 +294,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/sucuklu.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -321,7 +321,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/mantarli.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -348,7 +348,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/kavurmali.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -376,7 +376,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/lia-ton.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -403,7 +403,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/karisik-etli.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -431,7 +431,7 @@
     "milk"
    ],
    "price": null,
-   "img": "/assets/menu/fettuccine.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -459,7 +459,7 @@
     "milk"
    ],
    "price": null,
-   "img": "/assets/menu/fettuccine.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -487,7 +487,7 @@
     "milk"
    ],
    "price": null,
-   "img": "/assets/menu/fettuccine.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -511,7 +511,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/napoliten-sos.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -535,7 +535,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/arabiata-sos.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -559,7 +559,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/sweet-chili-sos.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -585,7 +585,7 @@
     "peanut"
    ],
    "price": null,
-   "img": "/assets/menu/pesto-kurutulmus-domates.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -611,7 +611,7 @@
     "milk"
    ],
    "price": null,
-   "img": "/assets/menu/baby-mozzarella.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -635,7 +635,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/mantar.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -659,7 +659,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/kori-soslu-tavuk.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -683,7 +683,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/sade-tavuk.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -709,7 +709,7 @@
     "fish"
    ],
    "price": null,
-   "img": "/assets/menu/ton-balik.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -733,7 +733,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/kitir-sogan.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -759,7 +759,7 @@
     "milk"
    ],
    "price": null,
-   "img": "/assets/menu/ekstra-parmesan.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -783,7 +783,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/misir.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -811,7 +811,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/lia-ton-bowl.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -838,7 +838,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/tavuklu-bowl.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -866,7 +866,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/peynirli-bowl.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -895,7 +895,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/balli-hardalli-bowl.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -922,7 +922,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/aci-tavuklu-bowl.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -949,7 +949,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/zerdecalli-bowl.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -976,7 +976,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/dana-jambon.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1004,7 +1004,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/pesto-peynir.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1032,7 +1032,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/avokado-yumurta.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1058,7 +1058,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/citir-tavuk.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1085,7 +1085,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/balli-hardalli-citir.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1112,7 +1112,7 @@
     "gluten"
    ],
    "price": null,
-   "img": "/assets/menu/dana-fume-kaburga.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1136,7 +1136,7 @@
    "kcal": 125,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/yesillik-salata.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1162,7 +1162,7 @@
     "nuts"
    ],
    "price": null,
-   "img": "/assets/menu/tavuklu-salata.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1188,7 +1188,7 @@
     "fish"
    ],
    "price": null,
-   "img": "/assets/menu/ton-balikli-salata.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1215,7 +1215,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/klasik-tiramisu.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1242,7 +1242,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/belcika-cikolatali-tiramisu.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "Yeni",
@@ -1269,7 +1269,7 @@
     "egg"
    ],
    "price": null,
-   "img": "/assets/menu/limonlu-tiramisu.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1293,7 +1293,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/coca-cola.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1317,7 +1317,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/fuse-tea.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1341,7 +1341,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/uludag-gazoz.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1365,7 +1365,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/uludag-limonata.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1389,7 +1389,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/churchill.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1415,7 +1415,7 @@
     "milk"
    ],
    "price": null,
-   "img": "/assets/menu/ayran.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1439,7 +1439,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/soda.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1463,7 +1463,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/su.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1487,7 +1487,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/turk-kahvesi.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1513,7 +1513,7 @@
     "milk"
    ],
    "price": null,
-   "img": "/assets/menu/salep.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",
@@ -1537,7 +1537,7 @@
    "kcal": null,
    "allergens": [],
    "price": null,
-   "img": "/assets/menu/cay.webp",
+   "img": "",
    "credit": "",
    "badge": {
     "tr": "",

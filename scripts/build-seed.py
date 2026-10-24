@@ -3,7 +3,7 @@ import json, pathlib
 
 def it(id, tr, en, dtr='', den='', kcal=None, al=(), **kw):
     d = {'id': id, 'name': {'tr': tr, 'en': en}, 'desc': {'tr': dtr, 'en': den}, 'kcal': kcal,
-         'allergens': list(al), 'price': None, 'img': f'/assets/menu/{id}.webp', 'credit': '',
+         'allergens': list(al), 'price': None, 'img': '', 'credit': '',
          'badge': {'tr': '', 'en': ''}, 'featured': False, 'available': True, 'hidden': False}
     d.update(kw)
     return d
@@ -26,9 +26,9 @@ cat('pizzalar', 'Pizzalar', 'Pizzas', 'Klasik ve ince hamurlu pizzalar', 'Classi
   it('karisik-etli', 'Karışık Etli', 'Mixed Meat', 'Domates sos, mozzarella peyniri, füme dana kaburga, dana kavurma', 'Tomato sauce, mozzarella, smoked beef rib, beef kavurma', 1200, ['milk','gluten']),
 ])
 cat('makarnalar', 'Makarnalar', 'Pasta', 'El açması taze fettuccine', 'Hand-rolled fresh fettuccine', items=[
-  it('fettuccine-200', 'Fettuccine 200 gr', 'Fettuccine 200 g', 'Krema ve parmesan peynirli', 'With cream and parmesan', 421, ['gluten','egg','milk'], img='/assets/menu/fettuccine.webp'),
-  it('fettuccine-250', 'Fettuccine 250 gr', 'Fettuccine 250 g', 'Krema ve parmesan peynirli', 'With cream and parmesan', 520, ['gluten','egg','milk'], img='/assets/menu/fettuccine.webp', featured=True),
-  it('fettuccine-300', 'Fettuccine 300 gr', 'Fettuccine 300 g', 'Krema ve parmesan peynirli', 'With cream and parmesan', 620, ['gluten','egg','milk'], img='/assets/menu/fettuccine.webp'),
+  it('fettuccine-200', 'Fettuccine 200 gr', 'Fettuccine 200 g', 'Krema ve parmesan peynirli', 'With cream and parmesan', 421, ['gluten','egg','milk']),
+  it('fettuccine-250', 'Fettuccine 250 gr', 'Fettuccine 250 g', 'Krema ve parmesan peynirli', 'With cream and parmesan', 520, ['gluten','egg','milk'], featured=True),
+  it('fettuccine-300', 'Fettuccine 300 gr', 'Fettuccine 300 g', 'Krema ve parmesan peynirli', 'With cream and parmesan', 620, ['gluten','egg','milk']),
 ])
 cat('makarna-eklemeleri', 'Makarna Eklemeleri', 'Pasta Add-ons', 'Makarnanızı dilediğiniz gibi zenginleştirin', 'Make your pasta your own', 'list', items=[
   it('napoliten-sos', 'Napoliten Sos', 'Napoletana Sauce', 'Domatesli klasik İtalyan sosu', 'Classic Italian tomato sauce'),

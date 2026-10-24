@@ -31,7 +31,6 @@
   };
 
   let menu = null;
-  let credits = {};
   let query = '';
   const params = new URLSearchParams(location.search);
   let lang = params.get('lang') || store.get('pst_lang') || ((navigator.language || 'tr').toLowerCase().startsWith('tr') ? 'tr' : 'en');
@@ -51,7 +50,6 @@
     if (!data) {
       try { data = await (await fetch('/data/menu.json', { cache: 'no-cache' })).json(); } catch {}
     }
-    try { credits = await (await fetch('/data/image-credits.json')).json(); } catch {}
     if (!data) { $('#menu').innerHTML = `<p class="loading">${esc(t('loadFail'))}</p>`; return; }
     menu = data;
     render();
@@ -76,15 +74,19 @@
     if (i < 0 || n.length !== s.length) return esc(s);
     return esc(s.slice(0, i)) + '<mark>' + esc(s.slice(i, i + q.length)) + '</mark>' + esc(s.slice(i + q.length));
   }
-  const photo = (it, cls = '') => it.img
-    ? `<div class="ph ${cls}"><img src="${esc(it.img)}" alt="${esc(L(it.name))}" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('none');this.src='/assets/brand/logo.webp'"></div>`
-    : `<div class="ph none ${cls}"><img src="/assets/brand/logo.webp" alt="" loading="lazy"></div>`;
+  // Photos are optional: items without an uploaded photo render a clean text-only layout.
+  const hasPhoto = (it) => !!it.img && !/^\/assets\/menu\//.test(it.img);
+  const photo = (it, cls = '') => hasPhoto(it)
+    ? `<div class="ph ${cls}"><img src="${esc(it.img)}" alt="${esc(L(it.name))}" loading="lazy" decoding="async" onerror="var p=this.parentNode,h=p.closest('.card,.row,.feat,.sheet-body');if(h)h.classList.add('nophoto');p.remove()"></div>`
+    : '';
 
   function card(it) {
     const out = it.available === false;
     const badge = L(it.badge);
-    return `<button type="button" class="card${out ? ' soldout' : ''}" data-id="${esc(it.id)}">
+    const ph = hasPhoto(it);
+    return `<button type="button" class="card${out ? ' soldout' : ''}${ph ? '' : ' nophoto'}" data-id="${esc(it.id)}">
       <div class="txt">
+        ${!ph && badge ? `<span class="badge">${esc(badge)}</span>` : ''}
         <h3>${hl(L(it.name))}</h3>
         ${L(it.desc) ? `<p class="desc">${hl(L(it.desc))}</p>` : ''}
         <div class="meta">
@@ -94,7 +96,7 @@
           ${it.price != null ? `<span class="price">${priceText(it.price)}</span>` : ''}
         </div>
       </div>
-      ${photo(it)}${badge ? `<span class="badge">${esc(badge)}</span>` : ''}
+      ${photo(it)}${ph && badge ? `<span class="badge">${esc(badge)}</span>` : ''}
     </button>`;
   }
   function row(it) {
@@ -125,7 +127,7 @@
       </section>`;
     }).join('');
 
-    const feats = !query && menu.items.filter((i) => i.featured && !i.hidden && i.available !== false && !blocked(i) && visibleCats().some((c) => c.id === i.cat));
+    const feats = !query && menu.items.filter((i) => i.featured && hasPhoto(i) && !i.hidden && i.available !== false && !blocked(i) && visibleCats().some((c) => c.id === i.cat));
     const featHtml = feats && feats.length ? `<section class="featured" aria-label="${esc(t('featured'))}"><h2>${esc(t('featured'))}</h2><div class="rail">${
       feats.map((it) => `<button type="button" class="feat" data-id="${esc(it.id)}">${photo(it)}<div class="t"><strong>${esc(L(it.name))}</strong>${it.price != null ? `<span class="p">${priceText(it.price)}</span>` : (it.kcal ? `<span class="p">${it.kcal} kcal</span>` : '')}</div></button>`).join('')
     }</div></section>` : '';
@@ -198,14 +200,7 @@
     document.body.classList.remove('locked');
     lastFocus?.focus?.();
   }
-  function creditFor(it) {
-    if (it.credit) return esc(it.credit);
-    const m = String(it.img || '').match(/^\/assets\/menu\/([a-z0-9-]+)\.webp$/);
-    const c = m && credits[m[1]];
-    if (!c) return '';
-    const who = [c.title, c.creator].filter(Boolean).join(' — ');
-    return `${esc(t('photo'))} (${esc(t('photoNote'))}): ${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(who || c.via)}</a>` : esc(who)}${c.license ? `, ${esc(c.license)}` : ''}`;
-  }
+  function creditFor(it) { return hasPhoto(it) && it.credit ? esc(it.credit) : ''; }
   function showItem(id) {
     const it = menu.items.find((i) => i.id === id);
     if (!it) return;
