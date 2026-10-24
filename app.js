@@ -130,7 +130,9 @@
       feats.map((it) => `<button type="button" class="feat" data-id="${esc(it.id)}">${photo(it)}<div class="t"><strong>${esc(L(it.name))}</strong>${it.price != null ? `<span class="p">${priceText(it.price)}</span>` : (it.kcal ? `<span class="p">${it.kcal} kcal</span>` : '')}</div></button>`).join('')
     }</div></section>` : '';
     const note = hiddenCount ? `<div class="filter-note"><span>${esc(t('hiddenBy')(hiddenCount))}</span><button type="button" id="clear-filter">${esc(t('showAll'))}</button></div>` : '';
-    $('#menu').innerHTML = note + featHtml + (shown ? sections : `<p class="empty">${esc(t('noResults'))}</p>`);
+    const ob = L(menu.settings?.orderNote);
+    const banner = ob ? `<p class="order-banner">${esc(ob)}</p>` : '';
+    $('#menu').innerHTML = note + banner + featHtml + (shown ? sections + banner : `<p class="empty">${esc(t('noResults'))}</p>`);
 
     $('#chips').innerHTML = cats.filter((c) => document.getElementById(c.id)).map((c) => `<a href="#${esc(c.id)}" data-c="${esc(c.id)}">${esc(L(c.name))}</a>`).join('');
     renderFooter();

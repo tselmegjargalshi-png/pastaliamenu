@@ -99,7 +99,7 @@ settings = {
   'subtitle': {'tr': 'Pizza & Makarna', 'en': 'Pizza & Pasta'},
   'tagline': {'tr': 'İnce hamurlu pizzalar, el açması taze makarna ve İtalyan tiramisu.', 'en': 'Thin-crust pizzas, hand-rolled fresh pasta and Italian tiramisu.'},
   'hours': {'tr': 'Her gün 11:00 – 22:00', 'en': 'Every day 11:00 – 22:00'},
-  'orderNote': {'tr': 'Siparişlerinizi içeri veriniz', 'en': 'Please place your order inside'},
+  'orderNote': {'tr': 'Siparişlerinizi içeri veriniz', 'en': 'Please place your orders inside'},
   'allergenNote': {'tr': 'Alerjen hassasiyetiniz varsa lütfen bildiriniz.', 'en': 'Please let us know if you have any food allergies.'},
   'city': 'Milas, Muğla',
   'address': '',
