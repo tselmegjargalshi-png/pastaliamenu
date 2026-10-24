@@ -23,11 +23,20 @@ for (const [id, pick] of Object.entries(picks)) {
   if (!c?.src) { console.error('no candidate', id, pick); continue; }
   if (credits[id]?.src === c.src && credits[id]?.position === (pick.position || 'attention')) continue;
   try {
+    const BR = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
+    const tries = [
+      [c.src, { 'User-Agent': UA }],
+      [c.src, { 'User-Agent': BR, Referer: 'https://www.flickr.com/', Accept: 'image/*' }],
+      [c.thumb, { 'User-Agent': UA }],
+    ].filter(t => t[0]);
     let r;
-    for (let a = 0; a < 4; a++) {
-      r = await fetch(c.src, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60000) });
-      if (r.ok || (r.status !== 429 && r.status < 500)) break;
-      await sleep(4000 * (a + 1));
+    for (const [u, h] of tries) {
+      for (let a = 0; a < 3; a++) {
+        r = await fetch(u, { headers: h, signal: AbortSignal.timeout(60000) });
+        if (r.ok || (r.status !== 429 && r.status < 500)) break;
+        await sleep(4000 * (a + 1));
+      }
+      if (r.ok) break;
     }
     if (!r.ok) throw new Error(String(r.status));
     const buf = Buffer.from(await r.arrayBuffer());
