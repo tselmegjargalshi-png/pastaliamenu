@@ -1,0 +1,1552 @@
+{
+ "version": 2,
+ "settings": {
+  "name": "Pastalia",
+  "subtitle": {
+   "tr": "Pizza & Makarna",
+   "en": "Pizza & Pasta"
+  },
+  "tagline": {
+   "tr": "İnce hamurlu pizzalar, el açması taze makarna ve İtalyan tiramisu.",
+   "en": "Thin-crust pizzas, hand-rolled fresh pasta and Italian tiramisu."
+  },
+  "hours": {
+   "tr": "Her gün 11:00 – 22:00",
+   "en": "Every day 11:00 – 22:00"
+  },
+  "orderNote": {
+   "tr": "Siparişlerinizi içeri veriniz",
+   "en": "Please place your order inside"
+  },
+  "allergenNote": {
+   "tr": "Alerjen hassasiyetiniz varsa lütfen bildiriniz.",
+   "en": "Please let us know if you have any food allergies."
+  },
+  "city": "Milas, Muğla",
+  "address": "",
+  "phone": "",
+  "instagram": "pastaliamilas",
+  "mapsUrl": "",
+  "currency": "₺",
+  "mealCards": "Setcard, Metropol Card, Multinet, Ticket Restaurant, Edenred",
+  "delivery": "Yemeksepeti, Trendyol Go, Getir Yemek, Migros Yemek"
+ },
+ "categories": [
+  {
+   "id": "pizzalar",
+   "name": {
+    "tr": "Pizzalar",
+    "en": "Pizzas"
+   },
+   "note": {
+    "tr": "Klasik ve ince hamurlu pizzalar",
+    "en": "Classic thin-crust pizzas"
+   },
+   "layout": "cards"
+  },
+  {
+   "id": "makarnalar",
+   "name": {
+    "tr": "Makarnalar",
+    "en": "Pasta"
+   },
+   "note": {
+    "tr": "El açması taze fettuccine",
+    "en": "Hand-rolled fresh fettuccine"
+   },
+   "layout": "cards"
+  },
+  {
+   "id": "makarna-eklemeleri",
+   "name": {
+    "tr": "Makarna Eklemeleri",
+    "en": "Pasta Add-ons"
+   },
+   "note": {
+    "tr": "Makarnanızı dilediğiniz gibi zenginleştirin",
+    "en": "Make your pasta your own"
+   },
+   "layout": "list"
+  },
+  {
+   "id": "pasta-bowl",
+   "name": {
+    "tr": "Pasta Bowl",
+    "en": "Pasta Bowls"
+   },
+   "note": {
+    "tr": "Taze makarna ve taze sebzelerle",
+    "en": "Fresh pasta with fresh vegetables"
+   },
+   "layout": "cards"
+  },
+  {
+   "id": "sandvicler",
+   "name": {
+    "tr": "Sandviçler",
+    "en": "Sandwiches"
+   },
+   "note": {
+    "tr": "",
+    "en": ""
+   },
+   "layout": "cards"
+  },
+  {
+   "id": "salatalar",
+   "name": {
+    "tr": "Salatalar",
+    "en": "Salads"
+   },
+   "note": {
+    "tr": "",
+    "en": ""
+   },
+   "layout": "cards"
+  },
+  {
+   "id": "tatlilar",
+   "name": {
+    "tr": "Tatlılar",
+    "en": "Desserts"
+   },
+   "note": {
+    "tr": "",
+    "en": ""
+   },
+   "layout": "cards"
+  },
+  {
+   "id": "soguk-icecekler",
+   "name": {
+    "tr": "Soğuk İçecekler",
+    "en": "Cold Drinks"
+   },
+   "note": {
+    "tr": "",
+    "en": ""
+   },
+   "layout": "cards"
+  },
+  {
+   "id": "sicak-icecekler",
+   "name": {
+    "tr": "Sıcak İçecekler",
+    "en": "Hot Drinks"
+   },
+   "note": {
+    "tr": "",
+    "en": ""
+   },
+   "layout": "cards"
+  }
+ ],
+ "items": [
+  {
+   "id": "margherita",
+   "name": {
+    "tr": "Margherita",
+    "en": "Margherita"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri",
+    "en": "Tomato sauce, mozzarella"
+   },
+   "kcal": 770,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/margherita.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": true,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "dana-kaburgali",
+   "name": {
+    "tr": "Dana Kaburgalı",
+    "en": "Smoked Beef Rib"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri, füme dana kaburga, mantar",
+    "en": "Tomato sauce, mozzarella, smoked beef rib, mushrooms"
+   },
+   "kcal": 990,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/dana-kaburgali.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "lia-pesto",
+   "name": {
+    "tr": "Lia Pesto",
+    "en": "Lia Pesto"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri, krema, pesto sos",
+    "en": "Tomato sauce, mozzarella, cream, pesto sauce"
+   },
+   "kcal": 950,
+   "allergens": [
+    "milk",
+    "nuts",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/lia-pesto.webp",
+   "credit": "",
+   "badge": {
+    "tr": "İmza",
+    "en": "Signature"
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "karisik",
+   "name": {
+    "tr": "Karışık",
+    "en": "Mixed"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri, sucuk, mısır, mantar, kapya biber, zeytin",
+    "en": "Tomato sauce, mozzarella, sucuk (Turkish beef sausage), corn, mushrooms, kapia pepper, olives"
+   },
+   "kcal": 1010,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/karisik.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "dort-peynirli",
+   "name": {
+    "tr": "Dört Peynirli",
+    "en": "Four Cheese"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri, Ezine peyniri, baby mozzarella, parmesan",
+    "en": "Tomato sauce, mozzarella, Ezine white cheese, baby mozzarella, parmesan"
+   },
+   "kcal": 980,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/dort-peynirli.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "sucuklu",
+   "name": {
+    "tr": "Sucuklu",
+    "en": "Sucuk"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri, dana sucuk",
+    "en": "Tomato sauce, mozzarella, beef sucuk (Turkish sausage)"
+   },
+   "kcal": 1020,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/sucuklu.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "mantarli",
+   "name": {
+    "tr": "Mantarlı",
+    "en": "Mushroom"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella, kültür mantarı",
+    "en": "Tomato sauce, mozzarella, button mushrooms"
+   },
+   "kcal": 790,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/mantarli.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "kavurmali",
+   "name": {
+    "tr": "Kavurmalı",
+    "en": "Beef Kavurma"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri, kırmızı soğan, mantar, dana kavurma",
+    "en": "Tomato sauce, mozzarella, red onion, mushrooms, slow-cooked beef kavurma"
+   },
+   "kcal": 970,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/kavurmali.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "lia-ton",
+   "name": {
+    "tr": "Lia Ton",
+    "en": "Lia Tuna"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri, ton balığı, soğan, kapya biber",
+    "en": "Tomato sauce, mozzarella, tuna, onion, kapia pepper"
+   },
+   "kcal": 855,
+   "allergens": [
+    "milk",
+    "fish",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/lia-ton.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "karisik-etli",
+   "name": {
+    "tr": "Karışık Etli",
+    "en": "Mixed Meat"
+   },
+   "desc": {
+    "tr": "Domates sos, mozzarella peyniri, füme dana kaburga, dana kavurma",
+    "en": "Tomato sauce, mozzarella, smoked beef rib, beef kavurma"
+   },
+   "kcal": 1200,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/karisik-etli.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pizzalar"
+  },
+  {
+   "id": "fettuccine-200",
+   "name": {
+    "tr": "Fettuccine 200 gr",
+    "en": "Fettuccine 200 g"
+   },
+   "desc": {
+    "tr": "Krema ve parmesan peynirli",
+    "en": "With cream and parmesan"
+   },
+   "kcal": 421,
+   "allergens": [
+    "gluten",
+    "egg",
+    "milk"
+   ],
+   "price": null,
+   "img": "/assets/menu/fettuccine.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarnalar"
+  },
+  {
+   "id": "fettuccine-250",
+   "name": {
+    "tr": "Fettuccine 250 gr",
+    "en": "Fettuccine 250 g"
+   },
+   "desc": {
+    "tr": "Krema ve parmesan peynirli",
+    "en": "With cream and parmesan"
+   },
+   "kcal": 520,
+   "allergens": [
+    "gluten",
+    "egg",
+    "milk"
+   ],
+   "price": null,
+   "img": "/assets/menu/fettuccine.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": true,
+   "available": true,
+   "hidden": false,
+   "cat": "makarnalar"
+  },
+  {
+   "id": "fettuccine-300",
+   "name": {
+    "tr": "Fettuccine 300 gr",
+    "en": "Fettuccine 300 g"
+   },
+   "desc": {
+    "tr": "Krema ve parmesan peynirli",
+    "en": "With cream and parmesan"
+   },
+   "kcal": 620,
+   "allergens": [
+    "gluten",
+    "egg",
+    "milk"
+   ],
+   "price": null,
+   "img": "/assets/menu/fettuccine.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarnalar"
+  },
+  {
+   "id": "napoliten-sos",
+   "name": {
+    "tr": "Napoliten Sos",
+    "en": "Napoletana Sauce"
+   },
+   "desc": {
+    "tr": "Domatesli klasik İtalyan sosu",
+    "en": "Classic Italian tomato sauce"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/napoliten-sos.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "arabiata-sos",
+   "name": {
+    "tr": "Arabiata Sos",
+    "en": "Arrabbiata Sauce"
+   },
+   "desc": {
+    "tr": "Acılı domates sosu",
+    "en": "Spicy tomato sauce"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/arabiata-sos.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "sweet-chili-sos",
+   "name": {
+    "tr": "Sweet Chili Sos",
+    "en": "Sweet Chili Sauce"
+   },
+   "desc": {
+    "tr": "Tatlı-acı sos",
+    "en": "Sweet & spicy sauce"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/sweet-chili-sos.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "pesto-kurutulmus-domates",
+   "name": {
+    "tr": "Pesto Kurutulmuş Domatesli",
+    "en": "Pesto & Sun-dried Tomato"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [
+    "peanut"
+   ],
+   "price": null,
+   "img": "/assets/menu/pesto-kurutulmus-domates.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "baby-mozzarella",
+   "name": {
+    "tr": "Baby Mozzarella",
+    "en": "Baby Mozzarella"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [
+    "milk"
+   ],
+   "price": null,
+   "img": "/assets/menu/baby-mozzarella.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "mantar",
+   "name": {
+    "tr": "Mantar",
+    "en": "Mushrooms"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/mantar.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "kori-soslu-tavuk",
+   "name": {
+    "tr": "Köri Soslu Tavuk",
+    "en": "Curry Chicken"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/kori-soslu-tavuk.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "sade-tavuk",
+   "name": {
+    "tr": "Sade Tavuk",
+    "en": "Plain Chicken"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/sade-tavuk.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "ton-balik",
+   "name": {
+    "tr": "Ton Balık",
+    "en": "Tuna"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [
+    "fish"
+   ],
+   "price": null,
+   "img": "/assets/menu/ton-balik.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "kitir-sogan",
+   "name": {
+    "tr": "Kıtır Soğan",
+    "en": "Crispy Onions"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/kitir-sogan.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "ekstra-parmesan",
+   "name": {
+    "tr": "Ekstra Parmesan",
+    "en": "Extra Parmesan"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [
+    "milk"
+   ],
+   "price": null,
+   "img": "/assets/menu/ekstra-parmesan.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "misir",
+   "name": {
+    "tr": "Mısır",
+    "en": "Corn"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/misir.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "makarna-eklemeleri"
+  },
+  {
+   "id": "lia-ton-bowl",
+   "name": {
+    "tr": "Lia Ton Bowl",
+    "en": "Lia Tuna Bowl"
+   },
+   "desc": {
+    "tr": "Makarna, ton balığı, kıtır soğan, mor lahana turşusu, rende havuç, mısır",
+    "en": "Pasta, tuna, crispy onions, pickled red cabbage, grated carrot, corn"
+   },
+   "kcal": 445,
+   "allergens": [
+    "fish",
+    "gluten",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/lia-ton-bowl.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pasta-bowl"
+  },
+  {
+   "id": "tavuklu-bowl",
+   "name": {
+    "tr": "Tavuklu Bowl",
+    "en": "Chicken Bowl"
+   },
+   "desc": {
+    "tr": "Makarna, tavuk, marul, mor lahana turşusu, rende havuç, mısır",
+    "en": "Pasta, chicken, lettuce, pickled red cabbage, grated carrot, corn"
+   },
+   "kcal": 530,
+   "allergens": [
+    "gluten",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/tavuklu-bowl.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": true,
+   "available": true,
+   "hidden": false,
+   "cat": "pasta-bowl"
+  },
+  {
+   "id": "peynirli-bowl",
+   "name": {
+    "tr": "Peynirli Bowl",
+    "en": "Cheese Bowl"
+   },
+   "desc": {
+    "tr": "Makarna, Ezine peyniri, baby mozzarella, parmesan, marul, mor lahana turşusu, roka",
+    "en": "Pasta, Ezine white cheese, baby mozzarella, parmesan, lettuce, pickled red cabbage, rocket"
+   },
+   "kcal": 490,
+   "allergens": [
+    "milk",
+    "gluten",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/peynirli-bowl.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pasta-bowl"
+  },
+  {
+   "id": "balli-hardalli-bowl",
+   "name": {
+    "tr": "Ballı Hardallı Bowl",
+    "en": "Honey Mustard Bowl"
+   },
+   "desc": {
+    "tr": "Makarna, ballı hardal soslu tavuk, marul, ceviz, roka, mor lahana turşusu, rende havuç",
+    "en": "Pasta, honey-mustard chicken, lettuce, walnuts, rocket, pickled red cabbage, grated carrot"
+   },
+   "kcal": 650,
+   "allergens": [
+    "mustard",
+    "nuts",
+    "gluten",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/balli-hardalli-bowl.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pasta-bowl"
+  },
+  {
+   "id": "aci-tavuklu-bowl",
+   "name": {
+    "tr": "Acı Tavuklu Bowl",
+    "en": "Spicy Chicken Bowl"
+   },
+   "desc": {
+    "tr": "Makarna, acılı tavuk, marul, mor lahana turşusu, mısır, turşu biber, rende havuç",
+    "en": "Pasta, spicy chicken, lettuce, pickled red cabbage, corn, pickled peppers, grated carrot"
+   },
+   "kcal": 560,
+   "allergens": [
+    "gluten",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/aci-tavuklu-bowl.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pasta-bowl"
+  },
+  {
+   "id": "zerdecalli-bowl",
+   "name": {
+    "tr": "Zerdeçallı Bowl",
+    "en": "Turmeric Bowl"
+   },
+   "desc": {
+    "tr": "Zerdeçallı makarna, tavuk, mor lahana turşusu, mısır, rende havuç, marul",
+    "en": "Turmeric pasta, chicken, pickled red cabbage, corn, grated carrot, lettuce"
+   },
+   "kcal": 540,
+   "allergens": [
+    "gluten",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/zerdecalli-bowl.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "pasta-bowl"
+  },
+  {
+   "id": "dana-jambon",
+   "name": {
+    "tr": "Dana Jambon",
+    "en": "Beef Ham"
+   },
+   "desc": {
+    "tr": "Dana jambon, mozzarella, marul, trüf mayonez, zeytinyağı",
+    "en": "Beef ham, mozzarella, lettuce, truffle mayo, olive oil"
+   },
+   "kcal": 850,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/dana-jambon.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sandvicler"
+  },
+  {
+   "id": "pesto-peynir",
+   "name": {
+    "tr": "Pesto Peynir",
+    "en": "Pesto & Cheese"
+   },
+   "desc": {
+    "tr": "Pesto, mozzarella, Ezine peyniri, roka, siyah zeytin, zeytinyağı",
+    "en": "Pesto, mozzarella, Ezine white cheese, rocket, black olives, olive oil"
+   },
+   "kcal": 900,
+   "allergens": [
+    "milk",
+    "nuts",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/pesto-peynir.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sandvicler"
+  },
+  {
+   "id": "avokado-yumurta",
+   "name": {
+    "tr": "Avokado Yumurta",
+    "en": "Avocado & Egg"
+   },
+   "desc": {
+    "tr": "Avokado, çırpılmış yumurta, mozzarella, roka, zeytinyağı",
+    "en": "Avocado, scrambled eggs, mozzarella, rocket, olive oil"
+   },
+   "kcal": 918,
+   "allergens": [
+    "milk",
+    "gluten",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/avokado-yumurta.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sandvicler"
+  },
+  {
+   "id": "citir-tavuk",
+   "name": {
+    "tr": "Çıtır Tavuk",
+    "en": "Crispy Chicken"
+   },
+   "desc": {
+    "tr": "Çıtır tavuk, marul, trüf mayonez, mor lahana turşusu, zeytinyağı",
+    "en": "Crispy chicken, lettuce, truffle mayo, pickled red cabbage, olive oil"
+   },
+   "kcal": 980,
+   "allergens": [
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/citir-tavuk.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sandvicler"
+  },
+  {
+   "id": "balli-hardalli-citir",
+   "name": {
+    "tr": "Ballı Hardallı Çıtır",
+    "en": "Honey Mustard Crispy Chicken"
+   },
+   "desc": {
+    "tr": "Ballı hardal, çıtır tavuk, marul, rende havuç, zeytinyağı",
+    "en": "Honey mustard, crispy chicken, lettuce, grated carrot, olive oil"
+   },
+   "kcal": 1030,
+   "allergens": [
+    "mustard",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/balli-hardalli-citir.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sandvicler"
+  },
+  {
+   "id": "dana-fume-kaburga",
+   "name": {
+    "tr": "Dana Füme Kaburga",
+    "en": "Smoked Beef Rib"
+   },
+   "desc": {
+    "tr": "Füme dana kaburga, mozzarella, marul, trüf mayonez, mor lahana turşusu, zeytinyağı",
+    "en": "Smoked beef rib, mozzarella, lettuce, truffle mayo, pickled red cabbage, olive oil"
+   },
+   "kcal": 970,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "price": null,
+   "img": "/assets/menu/dana-fume-kaburga.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sandvicler"
+  },
+  {
+   "id": "yesillik-salata",
+   "name": {
+    "tr": "Yeşillik Salata",
+    "en": "Green Salad"
+   },
+   "desc": {
+    "tr": "Marul, roka, mısır, mor lahana turşusu, rende havuç",
+    "en": "Lettuce, rocket, corn, pickled red cabbage, grated carrot"
+   },
+   "kcal": 125,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/yesillik-salata.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "salatalar"
+  },
+  {
+   "id": "tavuklu-salata",
+   "name": {
+    "tr": "Tavuklu Salata",
+    "en": "Chicken Salad"
+   },
+   "desc": {
+    "tr": "Izgara tavuk, marul, roka, rende havuç, mısır, mor lahana turşusu, ceviz",
+    "en": "Grilled chicken, lettuce, rocket, grated carrot, corn, pickled red cabbage, walnuts"
+   },
+   "kcal": 490,
+   "allergens": [
+    "nuts"
+   ],
+   "price": null,
+   "img": "/assets/menu/tavuklu-salata.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "salatalar"
+  },
+  {
+   "id": "ton-balikli-salata",
+   "name": {
+    "tr": "Ton Balıklı Salata",
+    "en": "Tuna Salad"
+   },
+   "desc": {
+    "tr": "Ton balığı, marul, roka, mısır, kıtır soğan",
+    "en": "Tuna, lettuce, rocket, corn, crispy onions"
+   },
+   "kcal": 305,
+   "allergens": [
+    "fish"
+   ],
+   "price": null,
+   "img": "/assets/menu/ton-balikli-salata.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "salatalar"
+  },
+  {
+   "id": "klasik-tiramisu",
+   "name": {
+    "tr": "Klasik İtalyan Tiramisu",
+    "en": "Classic Italian Tiramisu"
+   },
+   "desc": {
+    "tr": "Mascarpone peynirli orijinal İtalyan tiramisu, kakaolu olarak servis edilir.",
+    "en": "Original Italian tiramisu with mascarpone, served dusted with cocoa."
+   },
+   "kcal": 500,
+   "allergens": [
+    "milk",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/klasik-tiramisu.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": true,
+   "available": true,
+   "hidden": false,
+   "cat": "tatlilar"
+  },
+  {
+   "id": "belcika-cikolatali-tiramisu",
+   "name": {
+    "tr": "Belçika Çikolatalı Tiramisu",
+    "en": "Belgian Chocolate Tiramisu"
+   },
+   "desc": {
+    "tr": "Mascarpone peynirli, Belçika çikolatalı orijinal İtalyan tiramisu, kakaolu olarak servis edilir.",
+    "en": "Original Italian tiramisu with mascarpone and Belgian chocolate, served dusted with cocoa."
+   },
+   "kcal": 580,
+   "allergens": [
+    "milk",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/belcika-cikolatali-tiramisu.webp",
+   "credit": "",
+   "badge": {
+    "tr": "Yeni",
+    "en": "New"
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "tatlilar"
+  },
+  {
+   "id": "limonlu-tiramisu",
+   "name": {
+    "tr": "Limonlu Tiramisu",
+    "en": "Lemon Tiramisu"
+   },
+   "desc": {
+    "tr": "Hafif ekşimsi, ferah; yaza özel bir lezzet.",
+    "en": "Light, tangy and refreshing: a summer special."
+   },
+   "kcal": null,
+   "allergens": [
+    "milk",
+    "egg"
+   ],
+   "price": null,
+   "img": "/assets/menu/limonlu-tiramisu.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": true,
+   "cat": "tatlilar"
+  },
+  {
+   "id": "coca-cola",
+   "name": {
+    "tr": "Coca-Cola / Zero",
+    "en": "Coca-Cola / Zero"
+   },
+   "desc": {
+    "tr": "Klasik veya Zero",
+    "en": "Classic or Zero"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/coca-cola.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "soguk-icecekler"
+  },
+  {
+   "id": "fuse-tea",
+   "name": {
+    "tr": "Fuse Tea",
+    "en": "Fuse Tea"
+   },
+   "desc": {
+    "tr": "Limon / Şeftali / Ananas-Mango",
+    "en": "Lemon / Peach / Pineapple-Mango"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/fuse-tea.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "soguk-icecekler"
+  },
+  {
+   "id": "uludag-gazoz",
+   "name": {
+    "tr": "Uludağ Gazoz",
+    "en": "Uludağ Soda Pop"
+   },
+   "desc": {
+    "tr": "Sade / Portakallı",
+    "en": "Original / Orange"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/uludag-gazoz.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "soguk-icecekler"
+  },
+  {
+   "id": "uludag-limonata",
+   "name": {
+    "tr": "Uludağ Limonata",
+    "en": "Uludağ Lemonade"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/uludag-limonata.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "soguk-icecekler"
+  },
+  {
+   "id": "churchill",
+   "name": {
+    "tr": "Churchill",
+    "en": "Churchill"
+   },
+   "desc": {
+    "tr": "Soda, taze limon ve tuz",
+    "en": "Sparkling water with fresh lemon and a pinch of salt"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/churchill.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "soguk-icecekler"
+  },
+  {
+   "id": "ayran",
+   "name": {
+    "tr": "Ayran",
+    "en": "Ayran"
+   },
+   "desc": {
+    "tr": "Geleneksel yoğurt içeceği",
+    "en": "Traditional salted yogurt drink"
+   },
+   "kcal": null,
+   "allergens": [
+    "milk"
+   ],
+   "price": null,
+   "img": "/assets/menu/ayran.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "soguk-icecekler"
+  },
+  {
+   "id": "soda",
+   "name": {
+    "tr": "Soda",
+    "en": "Sparkling Mineral Water"
+   },
+   "desc": {
+    "tr": "Maden suyu",
+    "en": "Turkish mineral water"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/soda.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "soguk-icecekler"
+  },
+  {
+   "id": "su",
+   "name": {
+    "tr": "Su",
+    "en": "Still Water"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/su.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "soguk-icecekler"
+  },
+  {
+   "id": "turk-kahvesi",
+   "name": {
+    "tr": "Türk Kahvesi",
+    "en": "Turkish Coffee"
+   },
+   "desc": {
+    "tr": "",
+    "en": ""
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/turk-kahvesi.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sicak-icecekler"
+  },
+  {
+   "id": "salep",
+   "name": {
+    "tr": "Salep",
+    "en": "Salep"
+   },
+   "desc": {
+    "tr": "Tarçınlı sıcak süt içeceği",
+    "en": "Hot milk drink with cinnamon"
+   },
+   "kcal": null,
+   "allergens": [
+    "milk"
+   ],
+   "price": null,
+   "img": "/assets/menu/salep.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sicak-icecekler"
+  },
+  {
+   "id": "cay",
+   "name": {
+    "tr": "Çay",
+    "en": "Turkish Tea"
+   },
+   "desc": {
+    "tr": "İnce belli bardakta demli çay",
+    "en": "Brewed black tea in a tulip glass"
+   },
+   "kcal": null,
+   "allergens": [],
+   "price": null,
+   "img": "/assets/menu/cay.webp",
+   "credit": "",
+   "badge": {
+    "tr": "",
+    "en": ""
+   },
+   "featured": false,
+   "available": true,
+   "hidden": false,
+   "cat": "sicak-icecekler"
+  }
+ ]
+}
