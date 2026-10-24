@@ -27,6 +27,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add scripts/images assets/menu data/image-credits.json
+          mkdir -p assets/menu
+          git add -A scripts/images assets/menu data/image-credits.json
           git diff --cached --quiet || git commit -m "Update menu photos [automated]"
           git pull --rebase origin main && git push origin HEAD:main
